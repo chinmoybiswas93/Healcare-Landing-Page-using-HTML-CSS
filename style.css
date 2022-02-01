@@ -64,7 +64,6 @@ a {
 .container {
     max-width: 90%;
     margin: auto;
-    border: 1px solid red;
 }
 
 /* buttons */
@@ -526,6 +525,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10rem;
 }
 
 .apps-img {
@@ -548,4 +548,103 @@ nav {
 
 .app-store-images img {
     margin-right: 2rem;
+}
+
+/* ----------appoinment---------- */
+
+.appoinment-section {
+    background: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 0 5rem 10rem;
+    border-radius: 25px;
+    margin-bottom: 5rem;
+}
+
+.appoinment-content h3 {
+    color: white;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.btn-appoinment {
+    color: var(--primary-color);
+    background: white;
+    padding: 1.7rem;
+
+}
+
+.appoinment-image {
+    margin: -15rem 0 -52px 0;
+    text-align: right;
+
+}
+
+/* -----------------footer------------- */
+
+.footer-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    margin: 3rem 0;
+}
+
+.footer-col h3 {
+    font-size: 16px;
+    color: rgba(50, 50, 50, 1);
+    font-weight: 700;
+}
+
+.footer-social-icons i {
+    background-color: var(--nav-menu-color);
+    color: white;
+    font-size: 15px;
+    width: 33px;
+    height: 33px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    padding: 1.5rem 2rem;
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 1.5rem;
+}
+
+.footer-menu-links {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-menu-links a {
+    font-size: 14px;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.footer-last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-last-menu-links a {
+    color: var(--text-color);
+    margin-right: 1.5rem;
 }
