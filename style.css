@@ -61,10 +61,6 @@ a {
     font-size: 1.6rem;
 }
 
-.container {
-    max-width: 90%;
-    margin: auto;
-}
 
 /* buttons */
 
@@ -94,14 +90,18 @@ a {
 
 .hero-container {
     background: linear-gradient(to left, #9cd1ff6e, rgb(221, 244, 255), #bce0ff52);
-    /* background: linear-gradient(to top, #40a2f852, rgb(206, 244, 255), #40a2f859); */
+    width: 100%;
+}
+
+.nav-container {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
 }
 
 /*--------- navigations-----------------  */
-.nav-container {
-    max-width: 90%;
-    margin: auto;
-}
 
 nav {
     padding: 2.5rem 0;
@@ -142,7 +142,9 @@ nav {
 
     .container {
         max-width: 90%;
+        margin: auto;
     }
+
 
     .nav-container {
         max-width: 90%;
