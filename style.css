@@ -21,6 +21,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #ecf6ff6b, rgba(225, 246, 255, 0.705), #e4f2ff6b);
 }
 
 img {
@@ -235,7 +236,7 @@ nav {
 
 }
 
-/* easy steps  */
+/* ---------easy steps------------------  */
 
 .steps-section {
     background: linear-gradient(to right, #ecf6ff6b, rgba(225, 246, 255, 0.705), #e4f2ff6b);
@@ -280,7 +281,7 @@ nav {
 
 }
 
-/* about section  */
+/* ------------about section----------------  */
 
 .about-section {
     margin: auto;
@@ -352,7 +353,7 @@ nav {
 
 .services-section {
     text-align: center;
-    padding: 5rem 0;
+    padding: 6rem 0;
 
 }
 
@@ -374,9 +375,17 @@ nav {
     justify-content: space-evenly;
 }
 
+.services-bg {
+    background: linear-gradient(138.88deg, rgba(254, 254, 254, 0) -2.44%, #F9F9F9 -2.43%, rgba(254, 254, 254, 0.51) 98.26%);
+    filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
+}
+
+.bg-white {
+    background: white;
+}
+
 .services {
     max-width: 350px;
-    background: white;
     padding: 4rem 3rem;
     border-radius: 10px;
     margin: 2rem 3rem;
@@ -414,7 +423,7 @@ nav {
 
 .our-doctors {
     background: linear-gradient(to right, #ecf6ff6b, rgba(225, 246, 255, 0.705), #e4f2ff6b);
-    padding: 3rem 0;
+    padding: 5rem 0;
 }
 
 
@@ -439,7 +448,9 @@ nav {
 
 .doctors {
     width: 270px;
-    background: white;
+    background: linear-gradient(138.88deg, rgba(254, 254, 254, 0) -2.44%, #F9F9F9 -2.43%, rgba(254, 254, 254, 0.51) 98.26%);
+    border: 1px solid #EEEFF1;
+    filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.05));
     padding: 1rem 1rem 2rem 1rem;
     border-radius: 10px;
     box-shadow: 0px 4px 120px 0px rgba(0, 0, 0, 0.05);
@@ -523,6 +534,7 @@ nav {
 
 /* -----------------------app section--------- */
 
+
 .apps-section {
     display: flex;
     justify-content: space-between;
@@ -559,8 +571,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5rem 0 5rem 10rem;
-    border-radius: 25px;
+    padding: 3rem 0 3rem 10rem;
+    border-radius: 10px;
     margin-bottom: 5rem;
 }
 
@@ -579,7 +591,7 @@ nav {
 }
 
 .appoinment-image {
-    margin: -15rem 0 -52px 0;
+    margin: -15rem 0 -32px 0;
     text-align: right;
 
 }
